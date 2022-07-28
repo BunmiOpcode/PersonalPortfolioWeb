@@ -1,8 +1,8 @@
 @import url('chillax.css');
 
 body{
-    font-family: 'chillax', 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
-    background: #E7DEDE;
+    font-family: 'chillax', 'cursive', 'Lucida Sans', 'Lucida Sans Regular', 'roboto', sans-serif;
+    background: #FFFFFF;
     margin: 0;
     padding: 0;
 }
@@ -34,7 +34,7 @@ h3{
 }
 
 .nav-link:hover{
-    color: #A60150 !important
+    color: #A60150 !important;
 }
 
 /* .navbar-light .navbar-toggler-icon {
@@ -79,7 +79,7 @@ h3{
 }
 
 .pc{
-    margin-top: 1rem;
+    margin-top: 4rem;
     width: 435px;
     height: 440px;
 }
@@ -139,9 +139,11 @@ h3{
 
 footer{
     height: 70px;
-    background: #000;
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
 }
 
+.span{
+    color: #A60150;
+}
